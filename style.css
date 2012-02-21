@@ -1,0 +1,730 @@
+/*-------------------------------------
+
+	- Document: Mashedupmedia
+	- Version:  1.0.0
+	- Author:   P.Macfarlane  
+
+------------------------------------------*/
+
+
+
+
+/*-------------------------------------
+GLOBAL
+------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", serif; font-weight: bold;*/	
+	color: #2D3536;
+	
+	
+}
+
+p{
+	font-weight: normal;
+	font-size: 14px;
+	color:#525252;
+	line-height: 1.462;
+}
+h1{
+	font-weight: 900;
+	font-size: 14px;
+	color: #2D3536;
+	
+}
+
+img{
+	border: none;
+}
+span{
+	font-weight:bolder;
+}
+a:hover{
+	color:#b6e65b;
+}
+
+body {
+/*background: #f4f4f4;*/
+background: white;
+}
+
+/*-------------------------------------
+TOP STRIPE
+------------------------------------------*/
+
+div#topstripe{
+	height: 5px;
+	background: #2D3536;
+	border-bottom: solid 1px #96b2b5;
+}
+
+div#offer{
+position: absolute;
+top:0px;
+right:20px;
+width:200px;
+height:130px;
+background: red;
+}
+
+/*-------------------------------------
+960PX CONTAINER
+------------------------------------------*/
+div#container{
+	width: 960px;
+	margin: auto;
+}
+
+
+/*-------------------------------------
+HEADER
+------------------------------------------*/
+
+header{
+		height: 100px;
+		border-bottom: solid 1px #c5c5c5;
+		width: 100%;
+}
+
+#mail{
+	width: 100%;
+	height: 20px;
+	text-align: right;
+}
+
+#mail a{
+text-decoration: none;	
+font-size: small;
+	color:#7b7b7b;
+	font-weight: normal;
+}
+
+/*HEADER - NAVIGATION*/
+nav{
+	width: 680px;
+	height: 44px;
+	float: right;
+	font-size: small;
+	margin-top: 20px;
+}
+
+
+nav ul{
+	text-align: right;
+	float:right;
+}
+
+nav li{
+	list-style-type: none;
+	float:  left;
+}
+
+nav ul li a{
+	text-decoration: none;
+	margin-left: 38px;
+	color: #2D3536;
+}
+
+nav ul li a span{
+
+color: #b6e65b;
+
+}
+
+/*-------------------------------------
+INTRO
+------------------------------------------*/
+
+#intro h1{
+	color: #2D3536;
+	font-weight: normal !important;	
+	font-size: 24pt;
+	text-align: center;
+	margin-left: 20px;
+	margin: 10px 0px 0px 0px;
+}
+
+/*-------------------------------------
+BANNER
+------------------------------------------*/
+
+
+div#headbannercontain{
+	height: 320px;
+	border-bottom: solid 1px #c5c5c5;
+	position: relative;
+}
+
+div#headbanner{
+	height: 300px;
+	width: 536px;
+		position:absolute;
+	margin: 10px auto 0px auto;	
+}
+
+div#headbannerright{
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin: 14px auto 0px auto;
+	position: relative;
+	font-size: large;
+	line-height: 130%;	
+	text-transform:uppercase;
+}
+
+#viewmore{
+	position: absolute;
+width: 140px;
+height: 40px;
+	top: 22px;
+	left: 10px;
+	background: #2D3536;
+	z-index: 9999;
+		text-align: centre;
+	box-shadow: 1px 1px 1px #000000;
+
+	
+}
+
+#viewmorecorner{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+		top: 62px;
+		left: 10px;
+		   transform: rotate(40deg) scale(2.0);
+		
+		background: url(../images/bancorner.png) no-repeat;
+}
+
+#viewmore a{
+	color: white;
+	text-decoration: none;
+	display: block;
+margin-left: 25px;
+	margin-top: 12px;
+	font-size: 14px;
+	text-align: centre;
+}
+div#headbannerright p{
+
+	font-size: 22px;
+	line-height: 36px;	
+	font-weight: 900;
+}
+
+div#headbannerright p span{
+
+	background-color: #b6e65b;
+	color: #fff;
+	padding: 3px 5px;
+}
+
+
+div#headbannerright p  .purple{
+
+	background-color: #A280C7;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+div#headbannerright p  .pale{
+
+	background-color: #D5FF7E;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+div#headbannerright p  .blue{
+
+	background-color: #6ca09f;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+div#headbannerright p  .newblue{
+
+	background-color: #6484C9
+	;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+
+div#headbannerright p  .brown{
+
+	background-color: #8B3929;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+
+/*-------------------------------------
+INDEX MAIN
+------------------------------------------*/
+
+#main {
+	float: left;
+	
+}
+
+#intro h1 span{
+font-weight: bolder;
+}
+
+.content{
+	width: 230px;
+	float:left;
+}
+
+.content blockquote p{
+	font-size: 18px;
+	color: #2D3536;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.content h1{
+color:#2D3536;
+font-weight: bolder;
+margin-bottom: 2px;
+text-shadow: 0 1px 0 white;
+
+}
+
+.content img{
+	margin-bottom: 15px;
+}
+
+
+div#contentleft{
+margin-right: 10px;
+}
+
+#maincontent{
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-top:10px;
+	border-bottom: solid 1px #c5c5c5;
+	
+}
+
+#content{
+	
+	width: 480px;
+	float: left;
+	margin-right: 10px;
+	
+	
+}
+
+
+
+
+#social{
+	margin: 10px 20px 20px 0px;
+	float:right;
+
+}
+
+
+/*-------------------------------------
+index portfolio
+------------------------------------------*/
+#portimgcontain {
+	width: 440px;
+	float: left;
+	margin-bottom: 10px;
+}
+#portimgcontain a {
+	margin: 0px 5px 5px 0px;
+	float: left;
+	width: 213px;
+	height: 131px;	
+}
+
+#portimgcontain h1{
+	margin-bottom: 5px;
+}
+
+h1 .twitter{
+	margin: 10px 0;
+}
+
+
+#portfolio h1{
+	margin: 10px 0px 5px 0px;
+}
+
+.port1{
+background: url(http://www.mashedupmedia.com/images/portfoliothumbs/wave_thumb.jpg);
+}
+
+.port2{
+background: url(http://www.mashedupmedia.com/images/portfoliothumbs/ali_thumb.jpg);
+}
+.port3{
+background: url(http://www.mashedupmedia.com/images/portfoliothumbs/claire_thumb.jpg);
+}
+.port4{
+background-image: url(http://www.mashedupmedia.com/images/portfoliothumbs/calum_thumb.jpg);
+}
+
+.port1:hover, .port2:hover, .port3:hover, .port4:hover{
+	background: rgba(139-137-137);
+	opacity:0.8;
+}
+
+/*-------------------------------------
+ABOUT PAGE
+------------------------------------------*/
+
+#aboutintro{
+	padding: 10px;
+	width: 960px;
+	margin: 10px 0;
+	border-bottom: solid 1px #c5c5c5;
+-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+}
+
+#aboutcontent{
+	margin: auto;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+
+#aboutcontent h1{
+	color: #2D3536;
+		font-size: x-large;
+	/*text-shadow:0 2px 0 #FFFFFF;*/
+}
+
+#aboutcontent h2{
+		font-size: large;
+		color: #2D3536;
+}
+
+
+#aboutintro h1{
+	margin-bottom: 5px;
+	font-size: xx-large;
+	color: #2D3536;
+	font-weight: normal;
+
+}
+
+#aboutintro span{
+	font-weight:bolder;
+		color: black;
+	
+
+}
+
+
+#aboutintro p{
+	font-size: medium;
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+
+}
+
+#mdone{
+	margin-left: 10px;
+	margin-right:40px;
+}
+
+#mdtwo img{
+float: right;
+}
+
+#mdone img{
+	float: left;
+}
+
+#aboutcontent{
+	width: 100%;
+}
+
+.md{
+	width: 45%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.md h1{
+	text-shadow:0 1px 0 #FFFFFF;
+	color: #2D3536;
+	margin-top: 10px;
+}
+
+.mdabout{
+
+float: left;
+margin-top: 10px;
+}
+.mdabout2{
+
+float: left;
+text-align: left;
+margin-top: 10px;
+}
+.mdinfo{
+	float: left;
+	margin-left: 20px;
+}
+
+.mdinfo2{
+	float: right;
+	text-align: right;
+}
+
+
+.mdinfo2 li{
+	float: left;
+	text-align: right;
+	width: 100px;
+}
+.md ul{
+	list-style-type: none;
+}
+
+
+
+
+#sent{
+	visibility:hidden;
+}
+
+
+
+/*-------------------------------------
+PORTFOLIO 
+------------------------------------------*/
+
+#portmain{
+margin: 20px 0px 0px 20px;
+height: 700px;
+}
+
+#portmenu{
+	width: 149px;
+	float: left;
+	margin-top: 0px;
+	-webkit-transition: all .3s linear;
+	
+}
+
+#portmenu ul{
+	list-style-type: none;
+	
+}
+
+#portmenu ul li a{
+line-height:30px;
+display: block;	
+	text-decoration: none;
+font-size: 12px;
+		padding-left: 5px;
+}
+
+#portmenu ul li{
+
+}
+
+
+#portmenu ul li a.current{
+	font-weight: bold;
+	background: #b6e65b;
+	color: white;
+
+	
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+#portthumbs{
+	
+	float: left;
+	padding-left: 30px;
+	width: 760px;
+}
+
+h1.portheading{
+margin-bottom: 10px;
+}
+
+#projects-list{
+	float: left;
+	margin: 0px 0px 10px 0px;
+}
+
+#projects-list li{
+	width: 214px;
+	margin-right: 15px;
+	float: left;
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+#projects-list h2{
+margin-top: 10px;
+font-weight:normal;
+font-size: 14px;
+}
+
+
+#text{
+	
+	height: 200px;
+	width: 200px;
+}
+
+/*-------------------------------------
+FOOTER
+------------------------------------------*/
+
+footer{
+	background: #2D3536;
+	font-size:x-small;
+	width: 100%;
+	float:left;
+	font-weight: lighter;
+	color: white !important;
+}
+
+#btm{
+}
+
+#footcontain p{
+	margin-top: 10px;
+		color: white !important;
+}
+
+#footcontain  li{
+display: inline;
+list-style-type: none;
+	color: white !important;
+
+}
+#footcontain  li a{
+display: inline;
+	font-size: x-small;
+	font-weight: normal;
+	text-decoration: none;
+		color: white !important;
+	
+}
+
+#footcontain  li a span{
+
+		color: white !important;
+	
+}
+#footcontain p{
+	font-size: x-small;
+		color: white !important;
+	
+}
+#footcontain{
+	width: 960px;
+	margin: auto;
+	height: 100%;
+	color: white;
+}
+
+
+/*-------------------------------------
+CONTACT PAGE
+------------------------------------------*/
+#contactright{
+	float: left;
+	width: 450px;
+	height:100px;
+	margin-top: 32px;
+	margin-left: 10px;
+}
+
+#map{
+	margin-top: 6px;
+	background: url('../images/map.png') no-repeat;
+	position: relative;
+	width: 245px;
+	height: 300px;
+}
+
+#map h3{
+	
+background: #2D3536;
+color: white;
+padding: 0 8px;
+position: absolute;
+top: 0px;
+right: 0;
+font-size: 1.692em;
+line-height: 33px;
+
+}
+
+#map a{
+text-decoration: none;
+position: absolute;
+top: 23px;
+right: 0;
+background: #b6e65b;
+color: white;
+display: inline;
+float: right;
+line-height: 28px;
+padding: 0 7px;
+margin: 10px 0 0 0;
+text-transform: uppercase;
+font-size: 1.385em;
+border: none;
+cursor: pointer;
+
+}
+
+/*-------------------------------------
+BUTTONS
+------------------------------------------*/
+.button {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	font: 16px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+
+}
+.green {
+	color: #fef4e9;
+	background: #b6e65b;
+
+}
+.green:hover {
+	background: #f47c20;
+
+}
+.green:active {
+
+}
+
+

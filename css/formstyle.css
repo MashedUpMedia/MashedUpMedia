@@ -1,0 +1,131 @@
+.stretch,
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 1px;
+}
+
+.clearfix:after {
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+	content: ".";
+}
+
+
+label.error { 
+	display: block;
+	color: #b6e65b;                              
+	font-size: 11px; 
+	font-weight: bold;
+}
+
+::-webkit-validation-bubble {}
+::-webkit-validation-bubble-message {
+
+background-color: blue;
+}
+
+::-webkit-validation-bubble-body {background-color: blue;
+}
+::-webkit-validation-bubble-icon {background-color: blue;
+}
+::-webkit-validation-bubble-body {background-color: blue;
+}
+::-webkit-validation-bubble-text-block {background-color: blue;
+}
+::-webkit-validation-bubble-arrow-heading {background-color: blue;
+}
+
+::-webkit-validation-bubble-arrow {background-color: blue;
+}
+::-webkit-validation-bubble-arrow-clipper {}
+
+
+/*-------------------------------------
+FORM CORE
+------------------------------------------*/
+
+form#contact fieldset {
+	padding: 0px 20px 20px 0px;
+	margin: 10px 0px 0px 0px;
+	border: 0;
+	width: 465px;
+	text-align: left;
+	border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+}
+
+input:invalid{
+	
+	background-color: #b6e65b;
+}
+
+form#contact input[type="text"], input[type="url"], 
+input[type="email"], input[type="tel"], textarea {
+	margin: 3px 0 0 0;
+	padding: 6px; 
+	width: 445px; 
+	font-family: arial, sans-serif; 
+	font-size: 16px; 
+	border: 1px solid #ccc;
+    background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #f4f4f4), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 15px);
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+#contact{		
+	float: left;
+	width: 465px !important;
+	margin-top: 10px;
+}
+#contact-form{
+	height: 460px;
+	width:100%;
+}
+
+form#contact textarea {
+	width: 445px; 
+	height: 150px;
+	font-size: 16px; 
+	margin-bottom: 20px;
+}
+
+form#contact label {
+	display: block;
+	font-size: 13px;
+	color: #666;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+form#contact label.error { 
+	width: 270px;
+	margin: 3px 0 0 0;
+	display: block;
+	color: #cf0101;                              
+	font-size: 11px; 
+	text-align: right;
+}
+
+form#contact .placeholder {
+	color: #aaa;
+}
+
+.thanks{
+float: left;
+margin-top: 40px;
+background: #b6e65b;
+color: #525252;
+padding:5px;
+font-weight: 900;
+width: 465px;
+}

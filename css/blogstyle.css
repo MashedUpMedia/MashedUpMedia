@@ -1,0 +1,147 @@
+.blog_content{
+	width: 670px;
+	float: left;
+
+}
+a{
+	text-decoration: none;
+}
+
+.blogdate{
+	width: 90px;
+	height: 40px;
+float: left;
+	margin-right: 20px;
+	margin-left: -10px;
+}
+
+.date{
+
+	background: #2D3536;
+	width: 80px;
+	height: 35px;
+	z-index: 9999;
+	text-align: centre;
+	padding: 5px;
+	box-shadow: 1px 1px 1px #000000;
+
+	
+}
+
+.tags{
+	margin: 10px 0px;
+}
+.tags p a, .tagcloud a{
+	background: #b6e65b;
+	display: inline-block;
+	padding: 5px;
+	width: auto;
+}
+
+.tags p a:hover, .tagcloud a:hover{
+	color: black;
+}
+.author{
+	margin: 10px 0px;
+	background-color: #e6e6e6;
+	padding: 20px;
+}
+#breadcrumbs{
+	margin-bottom: 10px;
+}
+.date p{
+	color: white !important;
+}
+.meta{
+	margin: 10px 0px;
+	color:#525252;
+}
+.bio img{
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+p.bio{
+	font-size: 14px !important;
+	color:#525252 !important;
+		height: 90px;
+		margin-left: 0px!important;
+	
+}
+
+#comments{
+	padding: 0px 20px 0px 20px;
+}
+#sidebar{
+	width: 220px;
+	float: left;
+	padding: 20px;
+	color:#525252;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	color:#525252;
+}
+#sidebar ul li{
+	margin-bottom: 10px;
+	color:#525252;
+}
+
+#sidebar ul li div{
+color:#525252;
+}
+.datecorner{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+		   transform: rotate(40deg) scale(2.0);
+		background: url(../images/bancorner.png) no-repeat;
+}
+
+.date p{
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.post{
+	float: left;
+	width: 670px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+h1.entry-title{
+	font-size: 24px !important;
+	color: black;
+}
+
+.entry-content p{
+	font-size: 16px;
+	color: black;
+}
+.post p{
+	margin-left: 10px;
+}
+
+.avatar{
+	width: auto;
+	height: auto;
+}
+.post_content h2{
+margin-top: 23px;
+	margin-bottom: 20px;
+
+	display: block;
+}
+
+.post_content p{
+color: black;
+}
+
+.post_content{
+	float: left;
+}

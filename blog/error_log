@@ -1,0 +1,12 @@
+[03-Nov-2011 19:38:02] PHP Parse error:  syntax error, unexpected T_STRING in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/loop.php on line 8
+[24-Jan-2012 17:19:46] PHP Parse error:  syntax error, unexpected ')' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/loop-single.php on line 17
+[24-Jan-2012 17:20:06] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/loop-single.php on line 21
+[24-Jan-2012 17:46:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/loop.php on line 22
+[24-Jan-2012 21:05:15] PHP Warning:  Missing argument 1 for get_avatar(), called in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/loop-single.php on line 19 and defined in /home/pwmcr982/public_html/mashedupmedia/blog/wp-includes/pluggable.php on line 1587
+[24-Jan-2012 23:06:01] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/header.php on line 9
+[24-Jan-2012 23:06:03] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/header.php on line 9
+[24-Jan-2012 23:06:11] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/header.php on line 9
+[24-Jan-2012 23:06:19] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/header.php on line 9
+[24-Jan-2012 23:06:23] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/header.php on line 9
+[24-Jan-2012 23:07:32] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/header.php on line 9
+[25-Jan-2012 11:36:43] PHP Parse error:  syntax error, unexpected '<' in /home/pwmcr982/public_html/mashedupmedia/blog/wp-content/themes/masheduptheme/loop.php on line 3

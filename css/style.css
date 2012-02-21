@@ -1,0 +1,962 @@
+/*-------------------------------------
+
+	- Document: Mashedupmedia
+	- Version:  1.0.0
+	- Author:   P.Macfarlane  
+
+------------------------------------------*/
+
+
+
+
+/*-------------------------------------
+GLOBAL
+------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", serif; font-weight: bold;*/	
+	color: #2D3536;
+	
+	
+}
+
+p{
+	font-weight: 400;
+	font-size: 14px;
+	color:#525252;
+}
+h1{
+	font-weight: 900;
+	font-size: 16px !important;
+	color: #2D3536;
+	
+}
+
+img{
+	border: none;
+}
+span{
+	font-weight:bolder;
+}
+a:hover{
+	color:#b6e65b;
+}
+
+body {
+/*background: #f4f4f4;*/
+background: white !important;
+
+}
+
+/*-------------------------------------
+TOP STRIPE
+------------------------------------------*/
+
+div#topstripe{
+	height: 5px;
+	background: #2D3536;
+	border-bottom: solid 1px #616060;
+}
+
+div#offer{
+
+/*background-image: url('http://www.mashedupmedia.com/images/offerbg.jpg');
+	*/
+	background-color:#b6e65b;
+	padding: 5px 0px;
+		height:40px;
+	
+	position: relative;
+	color: white !important;
+	text-shadow: 1px 1px 1px #94c533;
+	/*-moz-box-shadow: inset 0px -4px 4px #2D3536;
+-webkit-box-shadow: inset 0px -4px 4px #2D3536;
+box-shadow: inset 0px -4px 4px #2D3536;
+	border-bottom: solid 1px #616060;
+*/
+}
+
+div#offer h1{
+display: block;
+height:20px;
+color: white !important;
+font-weight: 900;
+}
+
+div#offer p{
+color: white !important;
+font-weight: 100;
+font-size: 14px;
+margin-left: 160px;
+margin-top: 13px;
+
+}
+
+div#offer span{
+color: #A280C7;;
+
+}
+div#offer a{
+color:white;
+text-decoration: underline;
+}
+
+#offercontain{
+	width: 960px;
+	margin: auto;
+	position: relative;
+		heigt:80px;
+	
+}
+div#offer a:hover{
+color:#2D3536;
+
+}
+
+.close{
+	position: absolute;
+top: -14px;
+	right:50px;
+	color: #2D3536 !important;
+	font-weight: 900;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/close.png');
+		
+}
+/*-------------------------------------
+960PX CONTAINER
+------------------------------------------*/
+div#container{
+	width: 960px;
+	margin: auto;
+	float:none;
+}
+
+
+/*-------------------------------------
+HEADER
+------------------------------------------*/
+
+header{
+		height: 100px;
+		border-bottom: solid 1px #c5c5c5;
+		width: 100%;
+		float:left;
+}
+
+#mail{
+	width: 100%;
+	height: 20px;
+	text-align: right;
+}
+
+#mail a,#mail p{
+text-decoration: none;	
+font-size: 12px;
+	color:#7b7b7b;
+	font-weight: normal;
+}
+
+/*HEADER - NAVIGATION*/
+nav{
+	width: 680px;
+	height: 44px;
+	float: right;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+
+nav ul{
+	text-align: right;
+	float:right;
+}
+
+nav li{
+	list-style-type: none;
+	float:  left;
+}
+
+nav ul li a{
+	text-decoration: none;
+	margin-left: 38px;
+	color: #2D3536;
+}
+
+nav ul li a span{
+
+color: #b6e65b;
+
+}
+
+#logonav .logo{
+float:left;
+}
+
+#logonav{
+}
+
+/*-------------------------------------
+BANNER
+------------------------------------------*/
+
+
+div#headbannercontain{
+	height: 320px;
+	border-bottom: solid 1px #c5c5c5;
+	position: relative;
+	float:left;
+	width:100%;
+
+}
+
+div#headbanner{
+	height: 300px;
+	width: 536px;
+		position:absolute;
+	margin: 10px 0px 0px 0px;
+		float:left;
+}
+
+#headbannerright{
+	height: 300px;
+	width: 380px;
+	float: right;
+	margin: 14px auto 0px 10px;
+	position: relative;
+	font-size: 16px;
+	text-transform:uppercase;
+	overflow: hidden;
+}
+
+.viewmore{
+	position: absolute;
+width: 140px;
+height: 40px;
+	top: 22px;
+	left: 10px;
+	background: #2D3536;
+	z-index: 9999;
+		text-align: centre;
+	box-shadow: 1px 1px 1px #000000;
+
+	
+}
+
+.viewmorecorner{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+		top: 62px;
+		left: 10px;
+		   transform: rotate(40deg) scale(2.0);
+		background: url('../images/bancorner.png') no-repeat;
+}
+
+.viewmore a{
+	color: white;
+	text-decoration: none;
+	display: block;
+margin-left: 25px;
+	margin-top: 12px;
+	font-size: 14px;
+	text-align: centre;
+}
+#headbannerright p{
+		line-height: 32px;	
+font-weight: 900;
+	font-size: 21px;
+	margin-top: 20px;
+	text-shadow:  0 1px 0 #fff;
+	
+}
+
+div#headbannerright p span{
+
+	background-color: #b6e65b;
+	color: #fff;
+	padding: 3px 5px;
+}
+
+
+div#headbannerright p  .purple{
+
+	background-color: #A280C7;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+div#headbannerright p  .pale{
+
+	background-color: #D5FF7E;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+div#headbannerright p  .blue{
+
+	background-color: #6ca09f;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+div#headbannerright p  .newblue{
+
+	background-color: #6484C9
+	;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+
+div#headbannerright p  .brown{
+
+	background-color: #8B3929;
+		color: #fff;
+		padding: 3px 5px;
+	
+
+}
+
+/*-------------------------------------
+INDEX MAIN
+------------------------------------------*/
+
+#main {
+	float: left;
+	
+}
+
+#intro h1 span{
+font-weight: bolder;
+}
+
+.content{
+	width: 230px;
+	float:left;
+}
+
+.content blockquote p{
+	font-size: 18px;
+	color: #2D3536;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.content h1{
+color:#2D3536;
+font-weight: bolder;
+margin-bottom: 2px;
+font-size: 16px;
+text-shadow: 0 1px 0 white;
+
+}
+
+.content img{
+	margin-bottom: 15px;
+}
+
+
+div#contentleft{
+margin-right: 10px;
+}
+
+#maincontent{
+	float: left;
+	width: 940px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-top:10px;
+	border-bottom: solid 1px #c5c5c5;
+	
+}
+
+#content{
+	
+	width: 480px;
+	float: left;
+	margin-right: 10px;
+	
+	
+}
+
+#social{
+	margin: 10px 20px 20px 0px;
+	float:right;
+
+}
+
+
+/*-------------------------------------
+index portfolio
+------------------------------------------*/
+#portimgcontain {
+	width: 440px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+#portimgcontain h1{
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+h1 .twitter{
+	margin: 10px 0;
+}
+
+
+#portfolio h1{
+	margin: 10px 0px 5px 0px;
+}
+
+.port{
+width: 213px;
+height: 131px;
+	margin: 0px 5px 5px 0px;
+	float: left;
+position:relative;
+overflow: hidden;
+-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+}
+
+.mosaic-overlay {
+	display:none;
+	z-index:5;
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#111;
+}
+.mosaic-backdrop {
+	display:none;
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	background: #2D3536;
+	color: white;
+}
+
+.mosaic-backdrop h4, .mosaic-backdrop p{
+	color:white;
+		margin: 10px 10px
+	
+}
+
+/*-------------------------------------
+ABOUT PAGE
+------------------------------------------*/
+
+#aboutintro{
+	width: 960px;
+	padding: 0 10px;
+	border-bottom: solid 1px #c5c5c5;
+-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+}
+
+#aboutcontent{
+	margin: auto;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+
+#aboutcontent h1{
+	color: #2D3536;
+		font-size: 18px;
+	/*text-shadow:0 2px 0 #FFFFFF;*/
+}
+
+#aboutcontent h2{
+		font-size: 16px;
+		color: #2D3536;
+}
+
+
+#aboutintro h1{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 24px !important;
+	color: #2D3536;
+	font-weight: normal;
+
+}
+
+#aboutintro span{
+	font-weight:bolder;
+		color: black;
+	
+
+}
+
+
+#aboutintro p{
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+
+#mdone{
+	margin-left: 10px;
+	margin-right:40px;
+}
+
+
+#mdtwo{
+margin-right: 10px !important;
+float:right;
+}
+#mdtwo img{
+float: right;
+}
+
+#mdone img{
+	float: left;
+}
+
+#aboutcontent{
+	width: 100%;
+}
+
+.md{
+	width: 441px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.md h2{
+	color: #B6E65B !important;
+}
+
+.mdabout{
+
+float: left;
+margin-top: 10px;
+}
+.mdabout2{
+
+float: left;
+text-align: right;
+margin-top: 10px;
+}
+.mdinfo{
+	float: left;
+	margin-left: 15px;
+	width: 200px
+}
+
+
+.mdinfo2{
+	float: right;
+	width:200px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.mdtwo img{
+float:right;
+}
+.md ul{
+	list-style-type: none;
+}
+
+
+
+
+#sent{
+	visibility:hidden;
+}
+
+
+
+/*-------------------------------------
+PORTFOLIO 
+------------------------------------------*/
+
+#portmain{
+margin: 20px 0px 0px 20px;
+height: 700px;
+float:left;
+}
+
+#portmenu{
+	width: 149px;
+	float: left;
+	margin-top: 0px;
+	-webkit-transition: all .3s linear;
+	
+}
+
+#portmenu ul{
+	list-style-type: none;
+	
+}
+
+#portmenu ul li a{
+line-height:30px;
+display: block;	
+	text-decoration: none;
+font-size: 12px;
+		padding-left: 5px;
+}
+
+#portmenu ul li{
+
+}
+
+
+#portmenu ul li a.current{
+	font-weight: bold;
+	background: #b6e65b;
+	color: white;
+
+	
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+#portthumbs{
+	
+	float: left;
+	padding-left: 30px;
+	width: 760px;
+}
+
+h1.portheading{
+margin-bottom: 10px;
+}
+
+#projects-list{
+	float: left;
+	margin: 0px 0px 10px 0px;
+}
+
+#projects-list li{
+	width: 214px;
+	margin-right: 15px;
+	float: left;
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+#projects-list h2{
+margin-top: 10px;
+font-weight:normal;
+font-size: 14px;
+}
+
+
+#text{
+	
+	height: 200px;
+	width: 200px;
+}
+
+/*-------------------------------------
+FOOTER
+------------------------------------------*/
+
+footer{
+	background: #2D3536;
+	font-size:10px;
+	width: 100%;
+	float:left;
+	font-weight: lighter;
+	color: white !important;
+}
+
+#btm{
+}
+
+#footcontain p{
+	margin-top: 10px;
+		color: white !important;
+}
+
+#footcontain  li{
+display: inline;
+list-style-type: none;
+	color: white !important;
+
+}
+#footcontain  li a{
+display: inline;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+		color: white !important;
+	
+}
+
+#footcontain  li a {
+
+		color: white !important;
+	
+}
+#footcontain p{
+	font-size: 10px;
+		color: white !important;
+	
+}
+#footcontain{
+	width: 960px;
+	margin: auto;
+	height: 100%;
+	color: white;
+}
+
+
+/*-------------------------------------
+CONTACT PAGE
+------------------------------------------*/
+#contactright{
+	float: right;
+	right:0px;
+	width: 450px;
+	height:100px;
+	margin-top: 32px;
+	margin-left: 10px;
+}
+
+.contactinfo{
+
+width:150px;
+	float:left;
+	margin-left: 10px;
+}
+#map{
+	margin-top: 6px;
+	background: url('../images/map.png') no-repeat;
+	position: relative;
+	float:left;
+	width: 245px;
+	height: 300px;
+}
+
+#map h3{
+	
+background: #2D3536;
+color: white;
+padding: 0 8px;
+position: absolute;
+top: 0px;
+right: 0;
+font-size: 1.692em;
+line-height: 33px;
+
+}
+
+#map a{
+text-decoration: none;
+position: absolute;
+top: 23px;
+right: 0;
+background: #b6e65b;
+color: white;
+display: inline;
+float: right;
+line-height: 28px;
+padding: 0 7px;
+margin: 10px 0 0 0;
+text-transform: uppercase;
+font-size: 1.385em;
+border: none;
+cursor: pointer;
+
+}
+
+#map a:hover{
+background: #f47c20;
+}
+
+/*-------------------------------------
+SERVICES PAGES
+------------------------------------------*/
+
+#portmenu.servicesmenu{
+margin-left: 10px;
+float:left;
+}
+
+#servicescontent{
+width:779px;
+margin-left: 20px;
+float:left;
+height 400px;
+padding-bottom: 10px;
+}
+
+#scontenthead h2{
+text-align: left;
+}
+
+#scontenthead{
+
+}
+
+.smcontain{
+border-right: solid 2px #b6e65b;
+
+}
+/*.skill:nth-child(2n+1){
+margin: 0;
+}*/
+.skill{
+width:230px;
+float:left;
+margin-left:5px;
+}
+
+
+#scontentmain span.icondesc{
+font-size: 16px;
+font-weight: 100;
+vertical-align:  top;
+}
+
+#scontentmain{
+margin-top: 5px;
+}
+#skillcontain{
+width: 100%;
+clear:both;
+float: left;
+}
+.servicetext{
+margin-top: 5px;
+margin-left: 10px;
+float:left;
+width:469px;
+}
+.serviceimg{
+float:left;
+}
+
+.sviewwork{
+
+width:151px;
+margin-top: 20px;
+}
+#scontentmain h1{
+margin-bottom: 20px;
+}
+#scontentcontain{
+float:left;
+padding-bottom: 10px;
+margin-top: 10px;
+border-bottom: solid 1px #c5c5c5;
+}
+.allgreen{
+background-color: #b6e65b;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+.allgreen a:hover{
+color: white;
+}
+
+/*-------------------------------------
+SERVICES - INDEX PAGE
+------------------------------------------*/
+#services{
+float:left;
+width: 960px;
+margin-top: 10px;
+padding-bottom: 10px;
+border-bottom: solid 1px #c5c5c5;
+
+}
+
+#servicecontain{
+margin-left: 20px;
+}
+#web{
+	margin-left: 0px;
+}
+
+#app, #cust, #photo{
+margin-left: 10px;
+}
+
+.service{
+	width:225px;
+	margin-top: 10px;
+	float:left;
+	margin-left: 10px;
+}
+
+#webserviceimg{
+	background: url("http://www.mashedupmedia.com/images/webicon.png") no-repeat;
+
+}
+#appserviceimg{
+	background: url("http://www.mashedupmedia.com/images/appicon.png") no-repeat;
+
+}
+#photoserviceimg{
+	background: url("http://www.mashedupmedia.com/images/photoicon.png") no-repeat;
+
+}
+
+#custserviceimg{
+	background: url("http://www.mashedupmedia.com/images/custicon.png") no-repeat;
+
+}
+.serviceimage{
+width:130px;
+height:99px;
+margin-left: 25px;
+
+}
+
+.service h1{
+	color:#63b518;
+	font-size: 18px;
+	font-weight: 100;
+	}
+
+/*-------------------------------------
+BUTTONS
+------------------------------------------*/
+.button {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	font: 16px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+
+}
+.green {
+	color: #fef4e9;
+	background: #b6e65b;
+
+}
+.green:hover {
+	background: #f47c20;
+
+}
+.green:active {
+
+}
+
+

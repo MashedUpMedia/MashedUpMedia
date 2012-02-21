@@ -1,0 +1,10 @@
+.logo{
+	background-image: url('calumlogo.png');
+	width: 706px;
+	height: 126px;
+	margin: auto;
+	clear: both;
+	position:relative;
+}
+
+#floater	{width:1px;float: left; height:63px; }

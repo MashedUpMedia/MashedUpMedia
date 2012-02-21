@@ -1,0 +1,142 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Contact | MashedUpMedia</title>
+<meta name="description" content="MashedUpMedia create standards compliant web sites and robust apps for the industry leading mobile platforms. Get in touch to see what we can do for your business." />	<meta name="author" content="MashedUpMedia">
+<meta name="viewport" content="width=device-width,initial-scale=1">	
+<LINK REL="SHORTCUT ICON" HREF="images/favicon.ico">
+<link rel='index' title='MashedUpMedia' href='http://www.mashedupmedia.com/' />
+<meta name="keywords" content="MashedUpMedia, Mashed Up Media, Web Design, Web Development, Mobile Application Development, Apps, Mobile Apps, Bonnyrigg, Midlothian, Edinburgh" />
+
+	<link rel="stylesheet" href="http://www.mashedupmedia.com/css/style.css">
+	<link rel="stylesheet" href="http://www.mashedupmedia.com/css/formstyle.css">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26281632-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="http://use.typekit.com/jfb0ivw.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<script src="http://www.mashedupmedia.com/js/jquery.js"></script>
+	<script src="http://www.mashedupmedia.com/js/jquery.validate.js"></script>
+	<script src="http://www.mashedupmedia.com/js/jquery.placeholder.js"></script>
+	<script src="http://www.mashedupmedia.com/js/jquery.form.js"></script>
+	<script>
+	$(function(){
+	$('#contact').validate({
+	submitHandler: function(form) {
+	    $(form).ajaxSubmit({
+	    url: 'process.php',
+	    success: function() {
+	    $('#contact').hide();
+	    $('#contact-form').append("<p class='thanks'>Thanks! Your message has been sent. We will be in contact with you shortly. </p>")
+	    }
+	    });
+	    }
+	});         
+	});
+	</script>
+</head>
+<body>
+<div id="topstripe">
+</div>
+<div id="container">
+	<header>
+		<div id="mail">
+			<a href="mailto:contact@mashedupmedia.com">contact@mashedupmedia.com</a>
+		</div>
+		<div id="logonav">
+<a class="logo" href="http://mashedupmedia.com"><img src="http://www.mashedupmedia.com/images/logo.png" width="259" height="56" alt="MashedUpMedia Logo"/></a>	<nav>
+			<ul>
+<li><a href="http://www.mashedupmedia.com/">home</a></li>
+<li><a href="http://www.mashedupmedia.com/about.htm">who we are</a></li>
+<li><a href="http://www.mashedupmedia.com/services/">what we do</a>
+<li><a href="http://www.mashedupmedia.com/work/">our work</a></li>	
+						<li><a href="http://blog.mashedupmedia.com">blog</a></li>
+	
+				<li><a href="http://www.mashedupmedia.com/contact.htm"><span>contact us</span></a></li>	
+			</ul>
+		</nav>
+		</div>
+	</header>
+	<div id="main" role="main">
+	<section id="aboutintro">
+		<h1>Why not <span>contact us...</span></h1>
+		<p>We would like to hear from you whether it is a simple query, feedback on our services or a request for us to call you. Here at MashedUpMedia we make time to keep things social. So if theres anything you would like to discuss simply fill in the form below and we will get back to you.</p>
+	</section>
+	<div id="contact-form">	
+	<form id="contact" method="post" action="">
+	<fieldset>	
+	
+	<label for="name">Name</label>
+	<input type="text" name="name" placeholder="Joe Bloggs" title="Enter your name" class="required">
+	
+	<label for="email">E-mail</label>
+	<input type="email" name="email" placeholder="yourname@domain.com" title="Enter your e-mail address" class="required email">
+	
+	<label for="phone">Phone</label>
+	<input type="tel" name="phone" placeholder="ex. 0131 123 4567">
+		
+	<label for="message">Message</label>
+	<textarea name="message" placeholder="I would like to enquire about..." ></textarea>
+	
+	<input type="submit" name="submit" class="button green" id="submit" value="Send Message" />
+	
+	</fieldset>
+	</form>
+<div id="contactright">
+		<div id="map">
+			<h3>We are here</h3>
+			<a href="http://g.co/maps/grudt" alt="View on Google Maps">View Map</a>
+		</div>
+		<div class="contactinfo">
+		<p>Address:<br /> 5 Rose Terrace, Bonnyrigg, Midlothian <br /> EH19 3RB <br /> </p>
+		<p><br /><span>0131 2083038</span></p>
+	</div>
+</div>	
+	</div><!-- /end #contact-form -->
+	
+	<script src="http://www.mashedupmedia.com/js/modernizr-min.js"></script>
+	<script>
+	if (!Modernizr.input.placeholder){
+	      $('input[placeholder], textarea[placeholder]').placeholder();
+	}
+	</script>
+	</div>
+	</div>
+	<footer>
+	<div id="footcontain">
+	<div id="btm">
+			<ul>
+				<li><a href="http://www.mashedupmedia.com/"><span>home</span></a></li>
+				<li>|</li>
+				<li><a href="http://www.mashedupmedia.com/about.htm">about</a></li>
+				<li>|</li>
+				<li><a href="http://www.mashedupmedia.com/work/">work</a></li>
+				<li>|</li>
+				<li><a href="http://www.mashedupmedia.com/services.htm">services</a></li>
+				<li>|</li>
+				<li><a href="http://www.mashedupmedia.com/contact.htm">contact</a></li>	
+			</ul>
+		<p>&#169;2011 MashedUpMedia Ltd, Registered in Scotland. Company Number: SC409121, 5 Rose Terrace, Bonnyrigg, Midlothian EH19 3RB Tel: 0131 208 3038</p>
+		</div>
+	</div>
+	</footer>
+
+</body>
+</html>
